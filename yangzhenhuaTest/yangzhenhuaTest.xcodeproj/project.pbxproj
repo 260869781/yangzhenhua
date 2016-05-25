@@ -13,6 +13,7 @@
 		3F1871B81CF58FF200CBCBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1871B61CF58FF200CBCBAE /* Main.storyboard */; };
 		3F1871BA1CF58FF200CBCBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1871B91CF58FF200CBCBAE /* Assets.xcassets */; };
 		3F1871BD1CF58FF200CBCBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1871BB1CF58FF200CBCBAE /* LaunchScreen.storyboard */; };
+		3F1871C61CF5921900CBCBAE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1871C51CF5921900CBCBAE /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3F1871B91CF58FF200CBCBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1871BC1CF58FF200CBCBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1871BE1CF58FF200CBCBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1871C41CF5921900CBCBAE /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3F1871C51CF5921900CBCBAE /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				3F1871B11CF58FF200CBCBAE /* AppDelegate.m */,
 				3F1871B31CF58FF200CBCBAE /* ViewController.h */,
 				3F1871B41CF58FF200CBCBAE /* ViewController.m */,
+				3F1871C41CF5921900CBCBAE /* FirstViewController.h */,
+				3F1871C51CF5921900CBCBAE /* FirstViewController.m */,
 				3F1871B61CF58FF200CBCBAE /* Main.storyboard */,
 				3F1871B91CF58FF200CBCBAE /* Assets.xcassets */,
 				3F1871BB1CF58FF200CBCBAE /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				3F1871B51CF58FF200CBCBAE /* ViewController.m in Sources */,
 				3F1871B21CF58FF200CBCBAE /* AppDelegate.m in Sources */,
 				3F1871AF1CF58FF200CBCBAE /* main.m in Sources */,
+				3F1871C61CF5921900CBCBAE /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				3F1871C31CF58FF200CBCBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
